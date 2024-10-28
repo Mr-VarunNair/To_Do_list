@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static\css\index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="todo-container">
+        <h1>To Do App</h1>
+        <div class="input-container">
+            <input type="text" placeholder="Enter a task here">
+            <button class="save-btn">SAVE</button> 
+            <button class="get-tasks-btn">GET TASKS</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Todo item</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Buy groceries for next week</td>
+                    <td>In progress</td>
+                    <td>
+                        <button class="delete-btn"><span class="delete-text">DELETE </span><i class="fas fa-trash-alt trash-icon"></i></button>
+                        <button class="finished-btn">FINISHED</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Renew car insurance</td>
+                    <td>In progress</td>
+                    <td>
+                        <button class="delete-btn"><span class="delete-text">DELETE </span><i class="fas fa-trash-alt trash-icon"></i></button>
+                        <button class="finished-btn">FINISHED</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Sign up for online course</td>
+                    <td>In progress</td>
+                    <td>
+                        <button class="delete-btn"><span class="delete-text">DELETE </span><i class="fas fa-trash-alt trash-icon"></i></button>
+                        <button class="finished-btn">FINISHED</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
